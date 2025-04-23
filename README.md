@@ -50,8 +50,4 @@ git clone https://github.com/IldizovNodirbek/Ecommerce-App.git
 
 ```bash
 npm run dev
-
-
-
-
-
+```
