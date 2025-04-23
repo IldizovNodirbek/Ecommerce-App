@@ -2,46 +2,51 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-4xl font-bold mb-4 ">Contact Us</h1>
-      <hr className="border-2 w-[80%] mb-10" />
-      <form className="bg-white p-6 rounded shadow-md w-80">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-10 lg:px-20 py-12 bg-gray-50">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-center">
+        Contact Us
+      </h1>
+      <hr className="border-2 w-full max-w-4xl mb-8" />
+      <form className="bg-white w-full max-w-lg p-6 rounded-lg shadow-md">
         <div className="mb-4">
-          <label className="block text-gray-700 mb-2" htmlFor="email">
+          <label className="block text-gray-700 mb-2" htmlFor="name">
             Name
           </label>
           <input
             type="text"
-            id="text"
+            id="name"
             placeholder="Enter your name"
-            className="border border-gray-300 p-2 w-full rounded outline-none transition duration-300 focus:border-blue-600 "
+            className="border border-gray-300 p-3 w-full rounded outline-none transition duration-300 focus:border-blue-600"
           />
         </div>
+
         <div className="mb-4">
-          <label className="block text-gray-700 mb-2" htmlFor="password">
+          <label className="block text-gray-700 mb-2" htmlFor="email">
             Email
           </label>
           <input
             type="email"
             id="email"
             placeholder="Enter your email"
-            className="border border-gray-300 p-2 w-full rounded outline-none transition duration-300 focus:border-blue-600 "
+            className="border border-gray-300 p-3 w-full rounded outline-none transition duration-300 focus:border-blue-600"
           />
         </div>
+
         <div className="mb-4">
-          <label className="block text-gray-700 mb-2" htmlFor="email">
-            Name
+          <label className="block text-gray-700 mb-2" htmlFor="message">
+            Message
           </label>
           <textarea
-            type="message"
             id="message"
+            rows="5"
             placeholder="Enter your message"
-            className="border border-gray-300 p-2 w-full rounded outline-none transition duration-300 focus:border-blue-600 "
+            className="border border-gray-300 p-3 w-full rounded outline-none transition duration-300 focus:border-blue-600"
           />
         </div>
+
         <button
           type="submit"
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full"
+          className="bg-blue-600 text-white px-4 py-3 rounded w-full hover:bg-blue-700 transition"
         >
           Send
         </button>
