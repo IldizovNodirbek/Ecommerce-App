@@ -1,8 +1,49 @@
-# React + Vite
+# 🛍️ React E-commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern and **responsive static E-commerce website** built with **React** and **Tailwind CSS**. It provides users with a clean and visually appealing interface to browse products, view informational pages, and interact with a visual cart — all without backend functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Technologies Used
+
+- ⚛️ **React** – For building dynamic, component-based UI
+- 🔁 **React Router DOM** – For client-side routing between pages
+- 🎨 **Tailwind CSS** – A utility-first CSS framework for fast design
+- 🖼️ **Lucide-react** – Icon library for clean and minimalist icons
+
+---
+
+## 📄 Pages Included
+
+- **🏠 Home** – Main banner and services overview
+- **🛍️ Products** – Product listing page (visual only)
+- **ℹ️ About** – General information about the website
+- **📞 Contact** – Static contact form layout
+- **🔐 Login / Register** – Static authentication UI
+- **🛒 Cart** – Visual shopping cart interface
+
+---
+
+## Features
+
+  ✅ Clean and professional design
+
+  ✅ Fully responsive for all devices
+
+  ✅ Smooth navigation with React Router
+
+  ✅ Built with modular and maintainable components
+
+  ✅ Icon integration using Lucide-react
+
+  ✅ Dark mode ready (if applicable)
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/IldizovNodirbek/Ecommerce-App.git
+npm run dev
