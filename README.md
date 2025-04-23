@@ -42,8 +42,16 @@ This project is a modern and **responsive static E-commerce website** built with
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**:
+1. **Clone the repository** or **Download zip folder**
 
 ```bash
 git clone https://github.com/IldizovNodirbek/Ecommerce-App.git
+```
+
+```bash
 npm run dev
+
+
+
+
+
