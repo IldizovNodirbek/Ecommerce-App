@@ -36,7 +36,6 @@ This project is a modern and **responsive static E-commerce website** built with
 
   ✅ Icon integration using Lucide-react
 
-  ✅ Dark mode ready (if applicable)
 
 ---
 
